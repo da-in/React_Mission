@@ -14,9 +14,6 @@ export default function App() {
     float: "right",
   };
 
-  const handleChange = (e) => {
-    setValue(e.target.value);
-  };
   const handleSubmit = (e) => {
     //form 안에 input을 전송할 때 페이지 리로드 되는 것 막아줌
     e.preventDefault();
